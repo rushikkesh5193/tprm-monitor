@@ -1,0 +1,29 @@
+{
+  "weights": {"data": 0.4, "criticality": 0.4, "access": 0.2},
+  "data_scores": {"none": 0, "internal": 1, "personal": 2, "financial": 3, "sensitive_personal": 4, "health": 4},
+  "access_scores": {"none": 0, "remote_limited": 1, "remote_privileged": 2, "onsite_privileged": 3},
+  "tier_thresholds": {"1": 70, "2": 45, "3": 25},
+  "cadence_months": {"1": 12, "2": 12, "3": 24, "4": 36},
+  "min_control_score": {"1": 75, "2": 65, "3": 50, "4": 0},
+  "min_questionnaire_coverage": 0.8,
+  "control_effect": 0.8,
+  "expiring_days": 90,
+  "due_soon_days": 60,
+  "contract_renewal_days": 90,
+  "soc2_max_age_months": 12,
+  "personal_data_types": ["personal", "sensitive_personal", "health", "financial"],
+  "questionnaire": [
+    {"id": "GOV-1", "domain": "Governance", "weight": 2, "text": "Information security policy is approved and reviewed at least annually"},
+    {"id": "GOV-2", "domain": "Governance", "weight": 1, "text": "A named owner is accountable for the security programme (ISMS owner / CISO)"},
+    {"id": "ACC-1", "domain": "Access control", "weight": 3, "text": "MFA is enforced for all privileged and remote access"},
+    {"id": "ACC-2", "domain": "Access control", "weight": 2, "text": "Access is reviewed at least quarterly and leavers are removed within 24 hours"},
+    {"id": "DAT-1", "domain": "Data protection", "weight": 3, "text": "Customer data is encrypted in transit and at rest"},
+    {"id": "DAT-2", "domain": "Data protection", "weight": 2, "text": "Data retention and secure deletion on termination are documented"},
+    {"id": "INC-1", "domain": "Incident response", "weight": 2, "text": "Incident response plan was tested in the last 12 months"},
+    {"id": "INC-2", "domain": "Incident response", "weight": 3, "text": "Customers are notified of breaches within the contractual timeline"},
+    {"id": "BCP-1", "domain": "Resilience", "weight": 2, "text": "Business continuity and disaster recovery are tested annually"},
+    {"id": "VUL-1", "domain": "Vulnerability management", "weight": 2, "text": "Independent penetration test is done yearly and critical findings are fixed"},
+    {"id": "VUL-2", "domain": "Vulnerability management", "weight": 1, "text": "Patch management follows defined timelines"},
+    {"id": "SUB-1", "domain": "Fourth parties", "weight": 1, "text": "Subprocessors are listed and security terms are flowed down to them"}
+  ]
+}

@@ -1,0 +1,1036 @@
+{
+ "_note": "SYNTHETIC DATA. Vendor names are invented.",
+ "vendors": [
+  {
+   "owner": "Procurement",
+   "dpa_signed": false,
+   "id": "V001",
+   "name": "Northwind Payroll Services",
+   "service": "Payroll processing",
+   "criticality": 4,
+   "data_types": [
+    "sensitive_personal",
+    "financial"
+   ],
+   "access": "remote_limited",
+   "contract_end": "2026-12-01",
+   "last_assessment": "2025-06-10",
+   "soc2_report_date": "2026-03-01",
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2026-08-01"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "no",
+    "ACC-2": "partial",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "no",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": [
+    {
+     "id": "N-1",
+     "title": "Shared admin account",
+     "severity": "high",
+     "opened": "2025-07-01",
+     "due": "2025-09-01",
+     "closed": "2025-08-20"
+    }
+   ]
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V002",
+   "name": "Lakeside Cloud Hosting",
+   "service": "IaaS hosting",
+   "criticality": 4,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_privileged",
+   "contract_end": "2027-06-30",
+   "last_assessment": null,
+   "active_access": true
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V003",
+   "name": "Brightpath Marketing Analytics",
+   "service": "Campaign analytics",
+   "criticality": 2,
+   "data_types": [
+    "personal"
+   ],
+   "access": "none",
+   "contract_end": "2027-03-31",
+   "last_assessment": "2026-05-01",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "partial",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": [
+    {
+     "id": "B-1",
+     "title": "No TLS on reporting endpoint",
+     "severity": "high",
+     "opened": "2026-06-15",
+     "due": "2026-09-01"
+    }
+   ]
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V004",
+   "name": "Old Harbor Backup Co",
+   "service": "Offsite backup",
+   "criticality": 3,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_privileged",
+   "status": "terminated",
+   "active_access": true,
+   "last_assessment": "2024-02-01"
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V005",
+   "name": "Quartz Identity Provider",
+   "service": "SSO / IdP",
+   "criticality": 4,
+   "data_types": [
+    "internal"
+   ],
+   "access": "remote_privileged",
+   "contract_end": "2027-09-01",
+   "last_assessment": "2026-03-01",
+   "soc2_report_date": "2025-07-15",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2026-12-05"
+    }
+   ]
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V006",
+   "name": "Pinecrest Facilities Management",
+   "service": "Building services",
+   "criticality": 1,
+   "data_types": [
+    "none"
+   ],
+   "access": "onsite_privileged",
+   "contract_end": "2027-05-01",
+   "last_assessment": "2024-12-20",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   }
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V007",
+   "name": "Meridian CRM Cloud",
+   "service": "Customer CRM",
+   "criticality": 3,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_limited",
+   "contract_end": "2027-08-01",
+   "last_assessment": "2025-09-15",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes"
+   }
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V008",
+   "name": "Delta Courier Logistics",
+   "service": "Courier",
+   "criticality": 2,
+   "data_types": [
+    "internal"
+   ],
+   "access": "none",
+   "contract_end": "2026-08-30",
+   "last_assessment": "2026-02-01",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   }
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V009",
+   "name": "Vertex HR Platform",
+   "service": "HR system (being replaced)",
+   "criticality": 3,
+   "data_types": [
+    "sensitive_personal"
+   ],
+   "access": "remote_limited",
+   "status": "offboarding",
+   "active_access": true,
+   "last_assessment": "2026-01-10",
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   }
+  },
+  {
+   "owner": "Procurement",
+   "dpa_signed": true,
+   "id": "V010",
+   "name": "Silverline Stationery",
+   "service": "Office supplies",
+   "criticality": 1,
+   "data_types": [
+    "none"
+   ],
+   "access": "none",
+   "last_assessment": null
+  },
+  {
+   "id": "V011",
+   "name": "Grove Consulting",
+   "service": "Service 1",
+   "owner": "HR",
+   "criticality": 3,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-07-12",
+   "last_assessment": "2026-07-11",
+   "soc2_report_date": "2026-03-03",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-12-30"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V012",
+   "name": "Cedar Logistics",
+   "service": "Service 2",
+   "owner": "IT",
+   "criticality": 2,
+   "data_types": [
+    "none"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-04-27",
+   "last_assessment": "2026-09-16",
+   "soc2_report_date": "2026-03-20",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-05-04"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V013",
+   "name": "Fjord Networks",
+   "service": "Service 3",
+   "owner": "Operations",
+   "criticality": 2,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-02-10",
+   "last_assessment": "2026-09-21",
+   "soc2_report_date": "2026-05-28",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-11-08"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V014",
+   "name": "Alder Software",
+   "service": "Service 4",
+   "owner": "IT",
+   "criticality": 2,
+   "data_types": [
+    "internal"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-10-01",
+   "last_assessment": "2026-06-17",
+   "soc2_report_date": "2026-07-12",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-07-16"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V015",
+   "name": "Orchid Logistics",
+   "service": "Service 5",
+   "owner": "Operations",
+   "criticality": 2,
+   "data_types": [
+    "internal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-05-13",
+   "last_assessment": "2026-09-02",
+   "soc2_report_date": "2026-06-01",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-12-02"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V016",
+   "name": "Harbor Consulting",
+   "service": "Service 6",
+   "owner": "Finance",
+   "criticality": 2,
+   "data_types": [
+    "personal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-04-20",
+   "last_assessment": "2026-08-09",
+   "soc2_report_date": "2026-04-02",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-08-05"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V017",
+   "name": "Fjord Consulting",
+   "service": "Service 7",
+   "owner": "Finance",
+   "criticality": 1,
+   "data_types": [
+    "internal",
+    "personal"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-08-19",
+   "last_assessment": "2026-09-04",
+   "soc2_report_date": "2026-07-26",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-04-12"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V018",
+   "name": "Ember Software",
+   "service": "Service 8",
+   "owner": "IT",
+   "criticality": 2,
+   "data_types": [
+    "internal"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-11-16",
+   "last_assessment": "2026-08-18",
+   "soc2_report_date": "2026-09-22",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-07-24"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V019",
+   "name": "Dune Consulting",
+   "service": "Service 9",
+   "owner": "HR",
+   "criticality": 3,
+   "data_types": [
+    "internal",
+    "personal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-06-28",
+   "last_assessment": "2026-06-27",
+   "soc2_report_date": "2026-05-15",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-09-08"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V020",
+   "name": "Iris Software",
+   "service": "Service 10",
+   "owner": "Operations",
+   "criticality": 3,
+   "data_types": [
+    "none"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-04-02",
+   "last_assessment": "2026-08-03",
+   "soc2_report_date": "2026-06-15",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-07-03"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V021",
+   "name": "Juniper Consulting",
+   "service": "Service 11",
+   "owner": "Operations",
+   "criticality": 1,
+   "data_types": [
+    "internal",
+    "personal"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-04-29",
+   "last_assessment": "2026-08-28",
+   "soc2_report_date": "2026-06-03",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-08-02"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V022",
+   "name": "Harbor Software",
+   "service": "Service 12",
+   "owner": "HR",
+   "criticality": 3,
+   "data_types": [
+    "none"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-06-04",
+   "last_assessment": "2026-09-23",
+   "soc2_report_date": "2026-05-01",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-07-27"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V023",
+   "name": "Alder Systems",
+   "service": "Service 13",
+   "owner": "HR",
+   "criticality": 3,
+   "data_types": [
+    "none"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-05-03",
+   "last_assessment": "2026-06-04",
+   "soc2_report_date": "2026-08-01",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-03-20"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V024",
+   "name": "Nimbus Software",
+   "service": "Service 14",
+   "owner": "Finance",
+   "criticality": 3,
+   "data_types": [
+    "internal",
+    "personal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-02-10",
+   "last_assessment": "2026-07-08",
+   "soc2_report_date": "2026-06-22",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-01-08"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V025",
+   "name": "Grove Networks",
+   "service": "Service 15",
+   "owner": "IT",
+   "criticality": 2,
+   "data_types": [
+    "none"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2028-06-25",
+   "last_assessment": "2026-07-24",
+   "soc2_report_date": "2026-07-06",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-06-23"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V026",
+   "name": "Lumen Software",
+   "service": "Service 16",
+   "owner": "IT",
+   "criticality": 3,
+   "data_types": [
+    "internal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-11-18",
+   "last_assessment": "2026-07-24",
+   "soc2_report_date": "2026-03-30",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-08-01"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V027",
+   "name": "Birch Data Labs",
+   "service": "Service 17",
+   "owner": "Finance",
+   "criticality": 3,
+   "data_types": [
+    "none"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-07-20",
+   "last_assessment": "2026-06-27",
+   "soc2_report_date": "2026-05-07",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-08-21"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V028",
+   "name": "Lumen Systems",
+   "service": "Service 18",
+   "owner": "HR",
+   "criticality": 3,
+   "data_types": [
+    "none"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-11-14",
+   "last_assessment": "2026-07-19",
+   "soc2_report_date": "2026-06-22",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-08-18"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V029",
+   "name": "Cedar Data Labs",
+   "service": "Service 19",
+   "owner": "HR",
+   "criticality": 1,
+   "data_types": [
+    "internal"
+   ],
+   "access": "remote_limited",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-10-06",
+   "last_assessment": "2026-07-07",
+   "soc2_report_date": "2026-02-28",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2028-06-17"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  },
+  {
+   "id": "V030",
+   "name": "Nimbus Networks",
+   "service": "Service 20",
+   "owner": "Finance",
+   "criticality": 2,
+   "data_types": [
+    "internal"
+   ],
+   "access": "none",
+   "active_access": true,
+   "status": "active",
+   "contract_end": "2027-09-12",
+   "last_assessment": "2026-07-19",
+   "soc2_report_date": "2026-05-20",
+   "dpa_signed": true,
+   "certifications": [
+    {
+     "name": "ISO 27001",
+     "expiry": "2027-11-09"
+    }
+   ],
+   "answers": {
+    "GOV-1": "yes",
+    "GOV-2": "yes",
+    "ACC-1": "yes",
+    "ACC-2": "yes",
+    "DAT-1": "yes",
+    "DAT-2": "yes",
+    "INC-1": "yes",
+    "INC-2": "yes",
+    "BCP-1": "yes",
+    "VUL-1": "yes",
+    "VUL-2": "yes",
+    "SUB-1": "yes"
+   },
+   "findings": []
+  }
+ ]
+}
